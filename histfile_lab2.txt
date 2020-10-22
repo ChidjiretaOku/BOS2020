@@ -1,0 +1,47 @@
+    1  mkdir test
+    2  cd test/
+    3  >file
+    4  ls -l file 
+    5  chmod 000 file 
+    6  echo test
+    7  echo test>file
+    8  cat file
+    9  chmod 200 file 
+   10  ll file 
+   11  echo test>file
+   12  cat file
+   13  chmod 240 file 
+   14  ll file 
+   15  cat file
+   16  chmod 640 file 
+   17  ls -l file 
+   18  cat file
+   19  mkdir dir
+   20  touch dir/new_file
+   21  cd dir/
+   22  echo file\ 2>new_file
+   23  cat new_file 
+   24  cd ..
+   25  ll dir/
+   26  chmod ugo-x dir/
+   27  cd dir/
+   28  ls dir/new_file 
+   29  cat dir/new_file 
+   30  rm dir/new_file 
+   31  chown root file 
+   32  chgrp root file 
+   33  umask
+   34  umask 077
+   35  touch file1
+   36  ll file1
+   37  umask 000
+   38  touch file2
+   39  ll file2
+   40  cat file
+   41  ls -lR
+   42  cd test/
+   43  ls -lR
+   44  ls -lR > ~/lsfile.txt
+   45  history > ~/histfile.txt
+   46  history -d 46-52
+   47  history > ~/histfile.txt

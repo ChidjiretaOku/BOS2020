@@ -1,0 +1,10 @@
+.:
+итого 8
+drw-rw-r--. 2 tigo tigo 4096 окт 22 22:16 dir
+-rw-r-----. 1 root tigo    5 окт 22 22:14 file
+-rw-------. 1 tigo tigo    0 окт 22 22:26 file1
+-rw-rw-rw-. 1 tigo tigo    0 окт 22 22:27 file2
+
+./dir:
+итого 0
+-????????? ? ? ? ?            ? new_file
